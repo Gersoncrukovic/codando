@@ -35,3 +35,14 @@ console.log('whatsfoi');
 document.querySelector('body > div.joinchat.joinchat--right.joinchat--show > div > div.joinchat__button__open').addEventListener('click', function(){
 console.log('outrojeitowhats');
 });
+
+
+//prompt site bonecos.com
+document.querySelector("#windowFooter > div > input").addEventListener('click', function(){
+var caixa = document.getElementById('messageBoxWindow').innerText
+var texto = 'Sua mensagem foi registrada!\nObrigado por falar conosco!'
+if(caixa.includes(texto)){
+console.log(texto);
+}
+
+})
