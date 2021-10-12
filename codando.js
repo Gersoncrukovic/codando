@@ -24,3 +24,8 @@ document.getElementsByClassName('joinchat__button')[0].addEventListener('click',
 console.log('whatsfoi');
 
 });
+
+//whats querySelector
+document.querySelector('body > div.joinchat.joinchat--right.joinchat--show > div > div.joinchat__button__open').addEventListener('click', function(){
+console.log('outrojeitowhats');
+});
