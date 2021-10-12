@@ -12,3 +12,8 @@ var cont = 0;
         }
 
     },1000)
+
+    //form simples com submit
+    document.addEventListener('submit', function(){
+    console.log('form foi');
+});
