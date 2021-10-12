@@ -19,6 +19,12 @@ var cont = 0;
 });
 
 
+//validação de campos
+var name = document.querySelector("#name").value
+if(name.length>0){
+console.log('foi');
+}
+
 //whatsapp pelo Getelementbyclass
 document.getElementsByClassName('joinchat__button')[0].addEventListener('click', function(){
 console.log('whatsfoi');
