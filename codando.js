@@ -17,3 +17,10 @@ var cont = 0;
     document.addEventListener('submit', function(){
     console.log('form foi');
 });
+
+
+//whatsapp pelo Getelementbyclass
+document.getElementsByClassName('joinchat__button')[0].addEventListener('click', function(){
+console.log('whatsfoi');
+
+});
