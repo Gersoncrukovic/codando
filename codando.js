@@ -36,6 +36,19 @@ document.querySelector('body > div.joinchat.joinchat--right.joinchat--show > div
 console.log('outrojeitowhats');
 });
 
+<!-- click no botão whatsapp OU wa.me -->
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++){
+links[i].addEventListener('click', function(e){
+if(e && this.href.match('whatsapp.com') ||e && this.href.match('wa.me')){
+console.log('Whats OU Wa.me')
+}
+});
+};
+});
+</script>
 
 //prompt site bonecos.com
 document.querySelector("#windowFooter > div > input").addEventListener('click', function(){
