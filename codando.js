@@ -59,3 +59,16 @@ console.log(texto);
 }
 
 })
+
+
+//dois botões iguais de mesma classe 
+<script>
+  var btnEnviar =  document.querySelectorAll('.btnacao')[0];
+  var btnAtendimento = document.querySelectorAll('.btnacao')[1];
+  btnEnviar.addEventListener('click', function(){
+    dataLayer.push({'event':'btnEnviar'})
+  });
+  btnAtendimento.addEventListener('click', function(){
+    dataLayer.push({'event':'btnAtendimento'})
+  });
+</script>
